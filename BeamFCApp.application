@@ -1,10 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <assemblyIdentity name="BeamFCApp.application" version="1.0.0.1" publicKeyToken="714a428ae96ca606" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="BeamFCApp" asmv2:product="BeamFCApp" xmlns="urn:schemas-microsoft-com:asm.v1" />
-<<<<<<< HEAD
-  <deployment install="false" mapFileExtensions="true" />
-=======
   <deployment install="true" mapFileExtensions="true">
     <subscription>
       <update>
@@ -13,7 +10,6 @@
     </subscription>
     <deploymentProvider codebase="https://github.com/Thanhchung8888/my-app-installer/releases/download/v1.0.0/BeamFCApp.application" />
   </deployment>
->>>>>>> a9c1d91543bf384e7984054bd14d7a441c7b4be4
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
@@ -29,8 +25,66 @@
       </hash>
     </dependentAssembly>
   </dependency>
-<<<<<<< HEAD
-<publisherIdentity name="CN=AI Software" issuerKeyHash="fe4d602c170b44119e3c74c7e4c5a69f7e216707" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>f3reC8k5rDH+jIMCFbBlQyDQ30o=</DigestValue></Reference></SignedInfo><SignatureValue>fFjIzY1q1W57nCA1C61kTp6uDDu6shhkzVthGv/kHNxKO0aEMsNw13ECM0g2gGVUoIL5BKgMQqsqwZ0oLQ6hA15rzGfsIAlXLcQs/57uzCoL8tE+PimLB1yOWuQGt80p4Gl38arP3dIAsliifEsDMB8bTAl2ppzllJUG8U0pw8xydft0TirQ1Qlz0Y1oxVR60xW3iIZfwArIFYUzeCjOLAb6z8xaXUFRxqphCcwaF4QkNepRZ4IfEdySKRAcgEZ3q4wUUYAZ2rbM9yV7pyIlNBrE9Z00ElycxFmEsLMejEhnWCOdKYq2C/5p1sutQTocAa2sChQy7lTpBstHPDGmXg==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rxO4/Ll5qzPlVtKnv9joxbb+8NhSGEovZxAZNo782yEkQ5ZZZc3O5AtoWWottUAPbs9kwNXcBSJ1Xlep1ithEegZm623BdJFmTgVnhB4go2RIz3uKLCcgBO0dr2tz6ok6KBfkvzY0NO+/sANqo+HRB/NBxYyobxJiblYz/UcMLjOOkokxSXSwOMN5Arfa6I+zLOjprjJJy2hyBVKG363/kIEslPEEJZARxk661yfjAtRbMC8OiVAR06FLoVG8uXIDTthvLj9566jImGoVUo4jGL6eRO9h9rdkKpW/FrfDh3ZUCfvkN/4M0xrD3cUoL1yzJbr7iaZ2NFGWcFmJWPkGQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4adfd0204365b01502838cfe31ac39c90bde7a7f" Description="" Url=""><as:assemblyIdentity name="BeamFCApp.application" version="1.0.0.1" publicKeyToken="714a428ae96ca606" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AI Software</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>TdO5F+Ecv7CjFfoKVa+7xELJ1Sw=</DigestValue></Reference></SignedInfo><SignatureValue>kzOQE05+/v6x/9a0iKlJNcR9GrCLdGTUvgyIWEBsOKo2hMINoeZjZ2fRbzKWGKvJ73UQVLdBT9y3z2s+NvF0fJJDu0RZgOPQZNlpEonni3+FptxUhrEOFz5vl7Gu1uSEhxGftROKCfCz7sNebpCD2hkL0tqvjdb0BNWGQ3wRbowVALlcJusgpSKQG6WdAwQk/67R5Jpo3EhwDw5Uz9DOOTH06pddKyLIxWxyKTNhtcx7o5ZZMXPnGAAyd5ClCHrpBLv7LdJopH03hjODurNaB4etmB/EwB+jLsoDOtK6b1HGxy/3xmo40i1p6VtjwpPHbVY3KUuuBeT62vZv84Cm2Q==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rxO4/Ll5qzPlVtKnv9joxbb+8NhSGEovZxAZNo782yEkQ5ZZZc3O5AtoWWottUAPbs9kwNXcBSJ1Xlep1ithEegZm623BdJFmTgVnhB4go2RIz3uKLCcgBO0dr2tz6ok6KBfkvzY0NO+/sANqo+HRB/NBxYyobxJiblYz/UcMLjOOkokxSXSwOMN5Arfa6I+zLOjprjJJy2hyBVKG363/kIEslPEEJZARxk661yfjAtRbMC8OiVAR06FLoVG8uXIDTthvLj9566jImGoVUo4jGL6eRO9h9rdkKpW/FrfDh3ZUCfvkN/4M0xrD3cUoL1yzJbr7iaZ2NFGWcFmJWPkGQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIC+TCCAeWgAwIBAgIQ02bQARciRIdCo4zyE36NbjAJBgUrDgMCHQUAMBYxFDASBgNVBAMTC0FJIFNvZnR3YXJlMB4XDTI0MDcxMTA3MjcyOFoXDTM5MTIzMTIzNTk1OVowFjEUMBIGA1UEAxMLQUkgU29mdHdhcmUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvE7j8uXmrM+VW0qe/2OjFtv7w2FIYSi9nEBk2jvzbISRDllllzc7kC2hZai21QA9uz2TA1dwFInVeV6nWK2ER6BmbrbcF0kWZOBWeEHiCjZEjPe4osJyAE7R2va3PqiTooF+S/NjQ077+wA2qj4dEH80HFjKhvEmJuVjP9RwwuM46SiTFJdLA4w3kCt9roj7Ms6OmuMknLaHIFUobfrf+QgSyU8QQlkBHGTrrXJ+MC1FswLw6JUBHToUuhUby5cgNO2G8uP3nrqMiYahVSjiMYvp5E72H2t2Qqlb8Wt8OHdlQJ++Q3/gzTGsPdxSgvXLMluvuJpnY0UZZwWYlY+QZAgMBAAGjSzBJMEcGA1UdAQRAMD6AEPPRcsf/93qNpZGLzX4p7qmhGDAWMRQwEgYDVQQDEwtBSSBTb2Z0d2FyZYIQ02bQARciRIdCo4zyE36NbjAJBgUrDgMCHQUAA4IBAQAnOFGYb0UzzBSSlOPckVhYy8zQr6gUH7Ho5yaUdEvhLzZf197YtMtBBX6nh0p1+BSPwxN1nrR1AdtaF83a+/Orl5Ze8s8H0PcMuDFPz6sxXPYb9RmRVkJBakxANbzb66wj93A7rXnb+3mlOop8RxTpbZF8bZdWe5WpfP3rl2F+dPEFJJcxbEW/G9SDQ1WWisdid78t3VyGqroOGmhFUj8Kl8ZQJFhLGx7lFVfynkwJr85Di86o9V/FaddY5iui/HP99ijO3UL7bU7RXxbz7QZB/cZHwY9fNs93Zj2wpMKXqjL6kd9uNGpwzP7QJ9pFBWIbwyYMaHLw8xU0LA+RqXTl</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
-=======
-<publisherIdentity name="CN=AI Software" issuerKeyHash="fe4d602c170b44119e3c74c7e4c5a69f7e216707" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>4TXuMZ4HCtVk5PKWx3si2vz2ZkY=</DigestValue></Reference></SignedInfo><SignatureValue>a7H1diT5oqH4OUcEh0wI5cAUZh3PnLvfwN2ksSK77J1yMeOfD5NggSQsCT8qEf01nYvB1qw1tBYSnHYp5QkeIB+3R4+P3nA+ZUSlprquaeNwaQUD/k6MeBY581j0UP+mPlfk1K755PgF0KGYebZXBcrAXeozJaGkS2RnbvK9JvNLU6lSMevTHcgggY9UM590qE89Aeodbz8thR3WRyy8tVe2nNc4cF5msNohHhPC9lm8nVijIWCkhzT/h3jAh097/dbRhkXsF60F9RTxjPbd+PJqTDFhc8X2olhQGs0sv2u49Hpx1VVHDLXcDY4Qfydh5vOKN/LC0RA9yvW5oQCYJw==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rxO4/Ll5qzPlVtKnv9joxbb+8NhSGEovZxAZNo782yEkQ5ZZZc3O5AtoWWottUAPbs9kwNXcBSJ1Xlep1ithEegZm623BdJFmTgVnhB4go2RIz3uKLCcgBO0dr2tz6ok6KBfkvzY0NO+/sANqo+HRB/NBxYyobxJiblYz/UcMLjOOkokxSXSwOMN5Arfa6I+zLOjprjJJy2hyBVKG363/kIEslPEEJZARxk661yfjAtRbMC8OiVAR06FLoVG8uXIDTthvLj9566jImGoVUo4jGL6eRO9h9rdkKpW/FrfDh3ZUCfvkN/4M0xrD3cUoL1yzJbr7iaZ2NFGWcFmJWPkGQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4666f6fcda227bc796f2e464d50a079e31ee35e1" Description="" Url=""><as:assemblyIdentity name="BeamFCApp.application" version="1.0.0.0" publicKeyToken="714a428ae96ca606" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AI Software</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>gAGgwEjs1mWDW2CNoGJRZS7ZfT4=</DigestValue></Reference></SignedInfo><SignatureValue>P4uOlg7htINwIUfekYF8KxP7kTKmbLaY2VJF9UhUdZH+7YSXDiG5dbG9tyaSvGfkhPkhdp6jwLZ8x2GpdjtLcN3e9YVrsQp7OZl3ZhQm3tYdHBrlydkr3NDZcEcK4wErqW8DSJ/kUFYbFPC8mFx1E4Ld3a25dFptMQ4y8hk/4rAe24JY8NTHjdbzgZWM4ro6kuxlWXTFUbEu/sb45AfpL+12I6o5qLbstvtiL34J5if2LBoKawImcfM3U+oYBdsebqAOxaUA8uhnfHg+zDFOahcY+MLaKSatf0bX9R8R5hym6Mwi5ULI1GA4umTwTywwFI5gaHFSWHmSaKlQh+Ghsg==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rxO4/Ll5qzPlVtKnv9joxbb+8NhSGEovZxAZNo782yEkQ5ZZZc3O5AtoWWottUAPbs9kwNXcBSJ1Xlep1ithEegZm623BdJFmTgVnhB4go2RIz3uKLCcgBO0dr2tz6ok6KBfkvzY0NO+/sANqo+HRB/NBxYyobxJiblYz/UcMLjOOkokxSXSwOMN5Arfa6I+zLOjprjJJy2hyBVKG363/kIEslPEEJZARxk661yfjAtRbMC8OiVAR06FLoVG8uXIDTthvLj9566jImGoVUo4jGL6eRO9h9rdkKpW/FrfDh3ZUCfvkN/4M0xrD3cUoL1yzJbr7iaZ2NFGWcFmJWPkGQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIC+TCCAeWgAwIBAgIQ02bQARciRIdCo4zyE36NbjAJBgUrDgMCHQUAMBYxFDASBgNVBAMTC0FJIFNvZnR3YXJlMB4XDTI0MDcxMTA3MjcyOFoXDTM5MTIzMTIzNTk1OVowFjEUMBIGA1UEAxMLQUkgU29mdHdhcmUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvE7j8uXmrM+VW0qe/2OjFtv7w2FIYSi9nEBk2jvzbISRDllllzc7kC2hZai21QA9uz2TA1dwFInVeV6nWK2ER6BmbrbcF0kWZOBWeEHiCjZEjPe4osJyAE7R2va3PqiTooF+S/NjQ077+wA2qj4dEH80HFjKhvEmJuVjP9RwwuM46SiTFJdLA4w3kCt9roj7Ms6OmuMknLaHIFUobfrf+QgSyU8QQlkBHGTrrXJ+MC1FswLw6JUBHToUuhUby5cgNO2G8uP3nrqMiYahVSjiMYvp5E72H2t2Qqlb8Wt8OHdlQJ++Q3/gzTGsPdxSgvXLMluvuJpnY0UZZwWYlY+QZAgMBAAGjSzBJMEcGA1UdAQRAMD6AEPPRcsf/93qNpZGLzX4p7qmhGDAWMRQwEgYDVQQDEwtBSSBTb2Z0d2FyZYIQ02bQARciRIdCo4zyE36NbjAJBgUrDgMCHQUAA4IBAQAnOFGYb0UzzBSSlOPckVhYy8zQr6gUH7Ho5yaUdEvhLzZf197YtMtBBX6nh0p1+BSPwxN1nrR1AdtaF83a+/Orl5Ze8s8H0PcMuDFPz6sxXPYb9RmRVkJBakxANbzb66wj93A7rXnb+3mlOop8RxTpbZF8bZdWe5WpfP3rl2F+dPEFJJcxbEW/G9SDQ1WWisdid78t3VyGqroOGmhFUj8Kl8ZQJFhLGx7lFVfynkwJr85Di86o9V/FaddY5iui/HP99ijO3UL7bU7RXxbz7QZB/cZHwY9fNs93Zj2wpMKXqjL6kd9uNGpwzP7QJ9pFBWIbwyYMaHLw8xU0LA+RqXTl</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
->>>>>>> a9c1d91543bf384e7984054bd14d7a441c7b4be4
+  <publisherIdentity name="CN=AI Software" issuerKeyHash="fe4d602c170b44119e3c74c7e4c5a69f7e216707" />
+  <Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+          <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>f3reC8k5rDH+jIMCFbBlQyDQ30o=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>fFjIzY1q1W57nCA1C61kTp6uDDu6shhkzVthGv/kHNxKO0aEMsNw13ECM0g2gGVUoIL5BKgMQqsqwZ0oLQ6hA15rzGfsIAlXLcQs/57uzCoL8tE+PimLB1yOWuQGt80p4Gl38arP3dIAsliifEsDMB8bTAl2ppzllJUG8U0pw8xydft0TirQ1Qlz0Y1oxVR60xW3iIZfwArIFYUzeCjOLAb6z8xaXUFRxqphCcwaF4QkNepRZ4IfEdySKRAcgEZ3q4wUUYAZ2rbM9yV7pyIlNBrE9Z00ElycxFmEsLMejEhnWCOdKYq2C/5p1sutQTocAa2sChQy7lTpBstHPDGmXg==</SignatureValue>
+    <KeyInfo Id="StrongNameKeyInfo">
+      <KeyValue>
+        <RSAKeyValue>
+          <Modulus>rxO4/Ll5qzPlVtKnv9joxbb+8NhSGEovZxAZNo782yEkQ5ZZZc3O5AtoWWottUAPbs9kwNXcBSJ1Xlep1ithEegZm623BdJFmTgVnhB4go2RIz3uKLCcgBO0dr2tz6ok6KBfkvzY0NO+/sANqo+HRB/NBxYyobxJiblYz/UcMLjOOkokxSXSwOMN5Arfa6I+zLOjprjJJy2hyBVKG363/kIEslPEEJZARxk661yfjAtRbMC8OiVAR06FLoVG8uXIDTthvLj9566jImGoVUo4jGL6eRO9h9rdkKpW/FrfDh3ZUCfvkN/4M0xrD3cUoL1yzJbr7iaZ2NFGWcFmJWPkGQ==</Modulus>
+          <Exponent>AQAB</Exponent>
+        </RSAKeyValue>
+      </KeyValue>
+      <msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata">
+        <r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode">
+          <r:grant>
+            <as:ManifestInformation Hash="4adfd0204365b01502838cfe31ac39c90bde7a7f" Description="" Url="">
+              <as:assemblyIdentity name="BeamFCApp.application" version="1.0.0.1" publicKeyToken="714a428ae96ca606" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
+            </as:ManifestInformation>
+            <as:SignedBy />
+            <as:AuthenticodePublisher>
+              <as:X509SubjectName>CN=AI Software</as:X509SubjectName>
+            </as:AuthenticodePublisher>
+          </r:grant>
+          <r:issuer>
+            <Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#">
+              <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <Reference URI="">
+                  <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                    <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </Transforms>
+                  <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <DigestValue>TdO5F+Ecv7CjFfoKVa+7xELJ1Sw=</DigestValue>
+                </Reference>
+              </SignedInfo>
+              <SignatureValue>kzOQE05+/v6x/9a0iKlJNcR9GrCLdGTUvgyIWEBsOKo2hMINoeZjZ2fRbzKWGKvJ73UQVLdBT9y3z2s+NvF0fJJDu0RZgOPQZNlpEonni3+FptxUhrEOFz5vl7Gu1uSEhxGftROKCfCz7sNebpCD2hkL0tqvjdb0BNWGQ3wRbowVALlcJXt6oCjCiqnLR1VFEAq1PHpKcsGT27x4TxH2NdDzzDxY2kIjzupPdpjOdHz8KeU8YGAOxvd2sTCyOn8AMGZrRhqopysP5tVOB70jUN0S5JK+PMd9XleqBbN+DbmD/r4U2uwUX99BOGhNy1z2Nh3pqhtEDnyB3Y4Ej5+5A==</SignatureValue>
+              <KeyInfo Id="AuthenticodeKeyInfo">
+                <KeyValue>
+                  <RSAKeyValue>
+                    <Modulus>qRaHhW5bV3spTtDa40eytYni/LcicFfpF+n0wxH9LXg+4db/3QZrI6udJ+g3O8sz2/W5pZnzrVpBm4UR73XZ3OdJgH+ON40mFtLh0RLzxjUbEq9AZDCrl7KP4xDe7FdTeEPDl5dMZYNXUqW9N8i8f+kHGTT3r1d+bujXz8owzBoQ7d0Q+HDrF8pIoa67YOtbD9wW7WFT8HliSPajQybfRhdzXtfsAzeDJuQHUn+yccwnQbUlr94TTmVr9aQkROpSyEsVzkALyzzsDNtQJDmAjM44kek1rtgTme+Y7ahHyFbfG98x33pC2FKhHo1HJRoSR3V12K0nQQfH1TF+l7eVoQ==</Modulus>
+                    <Exponent>AQAB</Exponent>
+                  </RSAKeyValue>
+                </KeyValue>
+              </KeyInfo>
+            </Signature>
+          </r:issuer>
+        </r:license>
+      </msrel:RelData>
+    </KeyInfo>
+  </Signature>
+</asmv1:assembly>
