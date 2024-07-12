@@ -8,7 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://github.com/Thanhchung8888/my-app-installer/BeamFCApp.application" />
+    <deploymentProvider codebase="https://github.com/Thanhchung8888/my-app-installer/releases/download/v1.0.0/BeamFCApp.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
